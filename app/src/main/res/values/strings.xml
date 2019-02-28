@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Github Users</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello Komi!</string>
+    <string name="nur_fahren_sie">Nur Fahren Sie</string>
+    <string name="error_network">Check your network state. Your network is off!</string>
+    <string name="acti_github_title">#Github Kotlin Users</string>
+    <string name="loading">Loading...</string>
+    <string name="no_data_found">No data found :)</string>
+    <string name="retry">Retry...</string>
+    <string name="search">Search</string>
+    <string name="hint_search">Search...</string>
+</resources>

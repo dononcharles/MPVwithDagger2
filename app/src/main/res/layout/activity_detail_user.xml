@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.userslist.DetailUserActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/avatar"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chienchat"
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="User name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/username"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/fullname"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/company"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/location"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Adresse email if public"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/email"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Created at"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/createdat"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="Meine Name is EAGLE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Total followers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/nbfollowers"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:textSize="18sp"
+                    android:text="Bibiographie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:layout_marginStart="@dimen/dim_10"
+                    android:layout_marginEnd="@dimen/dim_10"
+                    android:layout_marginTop="@dimen/dim_10"
+                    android:id="@+id/bio"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:text="000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
